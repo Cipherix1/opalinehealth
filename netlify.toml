@@ -1,0 +1,15 @@
+# Netlify Configuration for Opaline Healthcare System
+
+[build]
+  publish = "dist"
+  command = "npm run build"
+
+# Redirect all traffic to index.html for HashRouter
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Form notifications - Configure email in Netlify UI
+# Go to: Site settings > Forms > Form notifications
+# Add email notification to: opalinehealth@gmail.com

@@ -1,0 +1,8 @@
+/* Custom Cursor Styles */
+* {
+  cursor: none !important;
+}
+
+a, button, input, textarea, select {
+  cursor: none !important;
+}
